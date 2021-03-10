@@ -1,0 +1,33 @@
+input {outline: 0 !important;}
+
+.all_input_field{
+
+
+}
+.all_input_field:hover{
+    color: #BD00FF !important;
+
+}
+input {
+    background: #F2F2F2 !important;
+    border: 1px solid #C8C8C8 !important;
+    box-sizing: border-box !important;
+    border-radius: 4px !important;
+    padding-left: 7px !important;
+    color: #8E8E8E !important;
+
+
+    outline: 0 !important;
+}
+
+input[type=search]{
+    background: #8E8E8E!important;
+    border: 1px solid #F2F2F2 !important;
+}
+
+input:hover
+{
+    border: 1px solid #BD00FF !important;
+    color: black !important;
+
+}

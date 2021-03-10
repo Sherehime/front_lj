@@ -1,0 +1,118 @@
+/* Стиль списка */
+ul.breadcrumb {
+    padding: 10px 0px;
+    list-style: none;
+    background: none;
+
+}
+
+/* Отображение элементов списка бок о бок */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    color: rgb(155, 0, 212);
+
+}
+
+/* Добавить символ косой черты (/) перед/за каждым элементом списка */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgb(155, 0, 212);
+    content: " \00a0";
+}
+
+/* Добавить цвет для всех ссылок внутри списка */
+ul.breadcrumb li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Добавить цвет на наведении курсора мыши */
+ul.breadcrumb li a:hover {
+    color: rgb(106, 3, 145);
+    text-decoration: none;
+}
+
+.grid-item{
+    background: #676767;
+
+}
+.grid-item-2_1{
+
+    overflow-y: scroll;
+}
+.grid-item-2{
+    overflow-y: scroll;
+}
+.grid-item-2_3{
+    overflow-y: scroll;
+}
+.grid-item-2_2{
+    overflow-y: scroll;
+}
+.grid-item-3{
+    overflow-y: scroll;
+}
+.global_label_size{
+    font-size: 10px;
+}
+
+.grid-item-3__store__quantity-transition{
+   display: inline-grid;
+}
+
+
+/****/
+.text_color_gray {
+    color: rgb(129, 129, 129);
+    white-space:nowrap;
+
+
+
+}
+.text_color_gray:hover {
+
+    color: rgb(129, 129, 129);
+
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 6px;
+}
+.card-body:hover{
+    background: #590050 !important;
+    color: #C8C8C8 !important;
+}
+.card-body{
+    color: #C8C8C8 !important ;
+}
+.light_text{
+    color: #C8C8C8 ;
+}
+
+.justify{
+    flex:1;
+    text-align: center;
+    font-size: 16px;
+    color: #8E8E8E;
+    padding: 4px;
+
+}
+.justify:hover{
+
+
+    color: #590050;
+    border:1px solid  #590050 ;
+
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: rgb(155, 0, 212);
+    background-color: #fff;
+    border-color: #DEE2E9 #dee2e6 #fff;
+}
+
+.padding-form{
+    padding-top: 10px;
+
+}

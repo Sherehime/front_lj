@@ -1,0 +1,28 @@
+.grid-item__functional-icons{
+    display: block;
+    text-align: right;
+
+}
+.grid-item-2__save-button{
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.col__product__button__image{
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.grid-item-2__product_variant_options-button{
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.grid-item-3__save-button{
+    display: block;
+    text-align: right;
+}

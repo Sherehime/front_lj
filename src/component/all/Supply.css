@@ -1,0 +1,13 @@
+.ScrollStyle_supply{
+    margin-top: 10px;
+    margin-right: 30px;
+    max-height:80vh;
+    overflow-y: scroll;
+}
+
+.ScrollStyle_supply__header__post-info{
+    display: block;
+    text-align: center;
+
+}
+
